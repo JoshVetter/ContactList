@@ -11,8 +11,8 @@ using UIKit;
 
 namespace ContactList
 {
-    [Register ("TableViewController")]
-    partial class TableViewController
+    [Register ("newTableViewCell")]
+    partial class newTableViewCell
     {
     }
 }

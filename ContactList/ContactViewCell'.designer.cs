@@ -11,8 +11,8 @@ using UIKit;
 
 namespace ContactList
 {
-    [Register ("Contact")]
-    partial class Contact
+    [Register ("ContactViewCell'")]
+    partial class ContactViewCell'
     {
     }
 }
