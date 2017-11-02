@@ -84,6 +84,7 @@
                                 <connections>
                                     <outlet property="contactNameLabel" destination="1237" id="name-outlet-1237"/>
                                     <outlet property="contactNumberLabel" destination="1241" id="name-outlet-1241"/>
+                                    <segue id="2981" destination="2885" kind="show" identifier="DetailsSegue"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -96,7 +97,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="209" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="514" y="36"/>
+            <point key="canvasLocation" x="477" y="36"/>
         </scene>
         <scene sceneID="1230">
             <objects>
@@ -112,6 +113,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1234" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8" y="45"/>
+        </scene>
+        <scene sceneID="2884">
+            <objects>
+                <viewController id="2885" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2882"/>
+                        <viewControllerLayoutGuide type="bottom" id="2883"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2886" customClass="DetailsViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2889" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="10" y="28" width="349" height="174"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2890" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Contact Name" customClass="labelContactName">
+                                <rect key="frame" x="16" y="241" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2887" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="30"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
