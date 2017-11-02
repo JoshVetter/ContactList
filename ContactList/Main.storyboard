@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="207" reuseIdentifier="Contact">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="207" reuseIdentifier="contact">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="207" id="208">
@@ -116,7 +116,7 @@
         </scene>
         <scene sceneID="2884">
             <objects>
-                <viewController id="2885" sceneMemberID="viewController">
+                <viewController id="2885" sceneMemberID="viewController" customClass="detailsViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2882"/>
                         <viewControllerLayoutGuide type="bottom" id="2883"/>
@@ -127,16 +127,34 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2889" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="10" y="28" width="349" height="174"/>
+                                <rect key="frame" x="13" y="83" width="349" height="174"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2890" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Contact Name" customClass="labelContactName">
-                                <rect key="frame" x="16" y="241" width="143" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2890" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Contact Name">
+                                <rect key="frame" x="16" y="265" width="143" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3189" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Address">
+                                <rect key="frame" x="13" y="294" width="132" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3190" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Phone Number">
+                                <rect key="frame" x="2" y="351" width="357" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25" weight="black"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="ContactImg" destination="2889" id="name-outlet-2889"/>
+                        <outlet property="labelName" destination="2890" id="name-outlet-2890"/>
+                        <outlet property="contactLocation" destination="3189" id="name-outlet-3189"/>
+                        <outlet property="contactPhoneNumber" destination="3190" id="name-outlet-3190"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2887" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

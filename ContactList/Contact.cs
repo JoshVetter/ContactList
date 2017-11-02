@@ -9,12 +9,12 @@ namespace ContactList
 
     public partial class TableViewController : UITableViewController
     {
-        List<Contact> contactList;
+        List<contact> contactList;
         public TableViewController(IntPtr handle) : base(handle)
         {
-            contactList = new List<Contact>();
+            contactList = new List<contact>();
 
-			contactList.Add(new Contact()
+			contactList.Add(new contact()
 			{
 				Name = "Josh Vetter",
 				Number = "123-456-9101",
@@ -22,7 +22,7 @@ namespace ContactList
 				Location = "213 Harvest Hills Drive N.E"
 			});
 
-			contactList.Add(new Contact()
+			contactList.Add(new contact()
 			{
 				Name = "Matt Dunn",
 				Number = "423-323-4444",
@@ -30,7 +30,7 @@ namespace ContactList
 				Location = "232 Harvest hills Drive N.E"
 			});
 
-			contactList.Add(new Contact()
+			contactList.Add(new contact()
 			{
 				Name = "John De Leon",
 				Number = "321-554-3332",
@@ -38,7 +38,7 @@ namespace ContactList
 				Location = "236 Harvest Hills Drive N.E"
 			});
 
-			contactList.Add(new Contact()
+			contactList.Add(new contact()
 			{
 				Name = "Gregory Ebron",
 				Number = "099-665-1243",
@@ -73,7 +73,7 @@ namespace ContactList
         {
             if (segue.Identifier == "DetailsSegue")
             {
-                var navigationController = segue.DestinationViewController as DetailsViewController;
+                var navigationController = segue.DestinationViewController as detailsViewController;
 
                 if (navigationController != null)
                 {
@@ -89,7 +89,7 @@ namespace ContactList
         }
     }
 
-    public class Contact
+    public class contact
     {
         public string Name;
         public string Number;

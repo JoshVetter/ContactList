@@ -118,6 +118,18 @@
     <Compile Include="labelContactName.designer.cs">
       <DependentUpon>labelContactName.cs</DependentUpon>
     </Compile>
+    <Compile Include="labelName.cs" />
+    <Compile Include="labelName.designer.cs">
+      <DependentUpon>labelName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactIMG.cs" />
+    <Compile Include="ContactIMG.designer.cs">
+      <DependentUpon>ContactIMG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailsViewController_.cs" />
+    <Compile Include="detailsViewController_.designer.cs">
+      <DependentUpon>detailsViewController_.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

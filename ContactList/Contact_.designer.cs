@@ -34,5 +34,10 @@ namespace ContactList
                 @delegate = null;
             }
         }
+
+        public static implicit operator Contact(contact v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
