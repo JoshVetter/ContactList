@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{3A5CF174-4438-46A8-9240-D3FA2B345374}</ProjectGuid>
+    <ProjectGuid>{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>ContactList</RootNamespace>
@@ -22,7 +22,7 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <IOSDebuggerPort>33967</IOSDebuggerPort>
+    <IOSDebuggerPort>55353</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -70,7 +70,7 @@
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <IOSDebuggerPort>52512</IOSDebuggerPort>
+    <IOSDebuggerPort>24354</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -100,14 +100,15 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="newTableViewController.cs" />
-    <Compile Include="newTableViewController.designer.cs">
-      <DependentUpon>newTableViewController.cs</DependentUpon>
+    <Compile Include="Contact_.designer.cs">
+      <DependentUpon>Contact_.cs</DependentUpon>
     </Compile>
-    <Compile Include="newTableViewCell.cs" />
-    <Compile Include="newTableViewCell.designer.cs">
-      <DependentUpon>newTableViewCell.cs</DependentUpon>
+    <Compile Include="ContactTableViewController_.cs" />
+    <Compile Include="ContactTableViewController_.designer.cs">
+      <DependentUpon>ContactTableViewController_.cs</DependentUpon>
     </Compile>
+    <Compile Include="Contact.cs" />
+    <Compile Include="Contact.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

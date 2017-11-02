@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList", "ContactList\ContactList.csproj", "{3A5CF174-4438-46A8-9240-D3FA2B345374}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList", "ContactList\ContactList.csproj", "{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Debug|iPhone = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Release|iPhone.ActiveCfg = Release|iPhone
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Release|iPhone.Build.0 = Release|iPhone
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{3A5CF174-4438-46A8-9240-D3FA2B345374}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Release|iPhone.Build.0 = Release|iPhone
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F273A2B3-D3EF-4329-AA37-06BDFC1B89EC}.Debug|iPhone.Build.0 = Debug|iPhone
 	EndGlobalSection
 EndGlobal

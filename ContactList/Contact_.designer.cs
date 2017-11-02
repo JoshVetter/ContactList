@@ -11,27 +11,27 @@ using UIKit;
 
 namespace ContactList
 {
-    [Register ("newTableViewCell")]
-    partial class newTableViewCell
+    [Register ("Contact")]
+    partial class Contact
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel contactNameLabel { get; set; }
+        UIKit.UITableViewController dataSource { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel contactNumberLabel { get; set; }
+        UIKit.UITableViewController @delegate { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (contactNameLabel != null) {
-                contactNameLabel.Dispose ();
-                contactNameLabel = null;
+            if (dataSource != null) {
+                dataSource.Dispose ();
+                dataSource = null;
             }
 
-            if (contactNumberLabel != null) {
-                contactNumberLabel.Dispose ();
-                contactNumberLabel = null;
+            if (@delegate != null) {
+                @delegate.Dispose ();
+                @delegate = null;
             }
         }
     }

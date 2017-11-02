@@ -4,23 +4,26 @@ using UIKit;
 
 namespace ContactList
 {
-    public partial class newTableViewCell : UITableViewCell
-    {
-
-        private Contact contactData;
+	public partial class ContactTableViewCell : UITableViewCell
+	{
+		private Contact contactData;
 		public Contact ContactData
 		{
 			get { return contactData; }
 			set
 			{
 				contactData = value;
+
+				labelName.Text = contactData.Name;
+				labelNumber.Text = contactData.Number;
+
+
 			}
 		}
 
+		public ContactTableViewCell(IntPtr handle) : base(handle)
+		{
 
-        public newTableViewCell (IntPtr handle) : base (handle)
-        {
-            
-        }
-    }
+		}
+	}
 }
