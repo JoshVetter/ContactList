@@ -13,7 +13,6 @@ namespace ContactList
             set
             {
                 contactData = value;
-
                 labelName.Text = contactData.Name;
                 labelNumber.Text = contactData.Number;
 

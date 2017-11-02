@@ -109,11 +109,6 @@
       <DependentUpon>ContactTableViewController_.cs</DependentUpon>
     </Compile>
     <Compile Include="Contact.cs" />
-    <Compile Include="Contact.cs" />
-    <Compile Include="DetailsViewController.cs" />
-    <Compile Include="DetailsViewController.designer.cs">
-      <DependentUpon>DetailsViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="labelContactName.cs" />
     <Compile Include="labelContactName.designer.cs">
       <DependentUpon>labelContactName.cs</DependentUpon>

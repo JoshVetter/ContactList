@@ -64,7 +64,7 @@ namespace ContactList
 
             var data = contactList[indexPath.Row];
 
-            cell.ContactData = data;
+            cell.SetContactData(data);
 
             return cell;
         }
@@ -74,6 +74,7 @@ namespace ContactList
             if (segue.Identifier == "DetailsSegue")
             {
                 var navigationController = segue.DestinationViewController as detailsViewController;
+                //fuck
 
                 if (navigationController != null)
                 {
