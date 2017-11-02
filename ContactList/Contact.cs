@@ -14,40 +14,41 @@ namespace ContactList
         {
             contactList = new List<Contact>();
 
-            contactList.Add(new Contact()
-            {
-                Name = "Matthew Dunn",
-                Number = "111-351-2785",
-                ImagePath = "Images/images-1.jpeg",
-                Location = "412 Country Cove NW,  Alberta CAN"
-            });
+			contactList.Add(new Contact()
+			{
+				Name = "Josh Vetter",
+				Number = "123-456-9101",
+				ImagePath = "Images/images-1.jpeg",
+				Location = "213 Harvest Hills Drive N.E"
+			});
 
-            contactList.Add(new Contact()
-            {
-                Name = "Josh Vetter",
-                Number = "403-356-0009",
-                ImagePath = "Images/images.jpeg",
-                Location = "50 Evanston Drive NW,  Alberta CAN"
-            });
+			contactList.Add(new Contact()
+			{
+				Name = "Matt Dunn",
+				Number = "423-323-4444",
+				ImagePath = "Images/images.jpeg",
+				Location = "232 Harvest hills Drive N.E"
+			});
 
-            contactList.Add(new Contact()
-            {
-                Name = "Tyler Gettle",
-                Number = "888-767-7373",
-                ImagePath = "Images/images.png",
-                Location = "9 Panarama Coast NW,  Alberta CAN"
-            });
+			contactList.Add(new Contact()
+			{
+				Name = "John De Leon",
+				Number = "321-554-3332",
+				ImagePath = "Images/images.png",
+				Location = "236 Harvest Hills Drive N.E"
+			});
 
-            contactList.Add(new Contact()
-            {
-                Name = "Greg Abron",
-                Number = "911-911-9119",
-                ImagePath = "Images/profile_default.png",
-                Location = "999 Last House on The Hill, Somewhere"
-            });
-        }
+			contactList.Add(new Contact()
+			{
+				Name = "Gregory Ebron",
+				Number = "099-665-1243",
+				ImagePath = "Images/profile_default.png",
+				Location = "690 Harvest Park Way N.E"
+			});
+		}
 
-        public override nint NumberOfSections(UITableView tableView)
+
+		public override nint NumberOfSections(UITableView tableView)
         {
             return 1;
         }
